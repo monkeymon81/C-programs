@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+
+namespace VariableDefinition
+{
+    using System;
+
+    namespace DeclaringConstants
+    {
+        class TestingArrays
+        {
+            static void Main(string[] args)
+            {
+                string[] Names = new string[5];
+                int a, b;
+
+                for (a = 0; a < 5; a++)
+                   
+             
+
+                {
+                    Console.WriteLine("please enter a name");
+                    Names[a] = Console.ReadLine();
+                }
+
+                for (b = 0; b < 5; b++)
+                {
+                    Console.WriteLine("These are the names you entered: {0}", Names[b]) ;
+
+                }
+
+                Console.ReadKey();
+
+
+
+            }
+        }
+    }
+}
+
+
+
